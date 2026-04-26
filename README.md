@@ -94,7 +94,6 @@ main{margin-top:120px;min-height:calc(100vh - 120px);}
 .cta-desc{color:var(--text-secondary);font-size:.95rem;line-height:1.7;margin-bottom:1.5rem;}
 .cta-btn{background:linear-gradient(135deg,var(--accent-gold) 0%,#d4af57 100%);color:white;border:none;padding:1rem 2rem;border-radius:8px;font-weight:700;font-size:1rem;cursor:pointer;transition:all .3s;width:100%;}
 .cta-btn:hover{transform:scale(1.05);box-shadow:var(--shadow-lg);}
-
 /* ─ Section Content ─ */
 .section-content{padding:2rem 4rem 4rem;max-width:1400px;margin:0 auto;}
 .sec-eyebrow{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-gold);margin-bottom:.75rem;font-weight:700;}
