@@ -61,7 +61,7 @@ nav{position:fixed;top:0;left:0;right:0;background:rgba(255,255,255,.95);backdro
 .ticker-item.up .change{color:var(--accent-green);}
 .ticker-item.dn .change{color:var(--accent-red);}
 /* ─ Main ─ */
-main{margin-top:50px;}
+main{margin-top:30px;}
 .section{display:none;animation:fadeSection .4s ease;}
 .section.active{display:block;}
 @keyframes fadeSection{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
