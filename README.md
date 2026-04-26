@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>M&A Hub - Global M&A Intelligence Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&A Hub - Global M&A Intelligence Platform</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -65,7 +66,6 @@ main{margin-top:120px;min-height:calc(100vh - 120px);}
 .section{display:none;animation:fadeSection .4s ease;}
 .section.active{display:block;}
 @keyframes fadeSection{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
-/* ─ Landing ─ */
 .landing-page{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:2rem;background:linear-gradient(135deg,var(--bg-primary) 0%,var(--bg-secondary) 100%);}
 .landing-hero{text-align:center;margin-bottom:3rem;animation:slideUp .6s ease;}
 @keyframes slideUp{from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);}}
