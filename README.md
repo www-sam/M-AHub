@@ -385,7 +385,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
     <!-- LANDING -->
     <div id="landing" class="section active">
         <div class="landing-page">
-            <div class="landing-hero"><h1>Global <span>M&A Intelligence</span> Platform</h1>
+            <div class="landing-hero"> →<h1>Global <span>M&A Intelligence</span> Platform</h1>
                 <p>Real-time deal flow, sector analysis, and AI-powered market intelligence for institutional investors and M&A professionals.</p>
                 <div class="data-source-tag"><span class="live-dot"></span> Data sourced from public filings, SEC EDGAR, Bloomberg & Refinitiv · Last updated <span id="lastUpdated"></span></div>
             </div>
@@ -471,7 +471,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
         <div class="section-content">
             <div class="sec-eyebrow">Sector Intelligence</div>
             <h2 class="sec-title">Live Market <em>Data</em></h2>
-            <p class="sec-desc">Simulated prices and M&A profiles — updated live every few seconds for demonstration purposes.</p>
+            <p class="sec-desc">Simulated prices and M&A profiles - updated live every few seconds for demonstration purposes.</p>
             <div class="data-source-inline">Share prices are simulated for demo · Sector data from public filings &amp; estimates</div>
             <div class="divider"></div>
             <div class="sector-tabs" id="sectorTabs"></div>
@@ -485,7 +485,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
         <div class="section-content">
             <div class="sec-eyebrow">Regional Intelligence</div>
             <h2 class="sec-title">M&A by <em>Region</em></h2>
-            <p class="sec-desc">Geographic breakdown of global M&A activity — deal volumes, regulatory environments, and strategic trends by region.</p>
+            <p class="sec-desc">Geographic breakdown of global M&A activity - deal volumes, regulatory environments, and strategic trends by region.</p>
             <div class="divider"></div>
             <div class="three-col" id="regionsGrid">
                 <div class="skeleton-card" style="height:200px"></div><div class="skeleton-card" style="height:200px"></div><div class="skeleton-card" style="height:200px"></div>
@@ -507,7 +507,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
         <div class="section-content">
             <div class="sec-eyebrow">AI Deal Intelligence</div>
             <h2 class="sec-title">M&A <em>Analysis</em></h2>
-            <p class="sec-desc">AI-powered M&A analysis assistant — ask anything about global deal flow, valuations, regulatory risk, or sector trends.</p>
+            <p class="sec-desc">AI-powered M&A analysis assistant - ask anything about global deal flow, valuations, regulatory risk, or sector trends.</p>
             <div class="divider"></div>
             <div class="analysis-layout">
                 <div class="chat-container">
@@ -550,7 +550,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
                 <div class="card">
                     <div class="section-label-gold" style="margin-bottom:1rem;">Market Commentary</div>
                     <div style="font-family:'Plus Jakarta Sans',sans-serif;font-size:1.1rem;font-weight:800;color:var(--text-primary);margin-bottom:1rem;">Q1–Q2 2025 M&A Outlook</div>
-                    <p style="font-size:.8rem;color:var(--text-secondary);line-height:1.8;">Global M&A has roared back in 2025, with first-half volumes surpassing $2.1T — the strongest start since 2021. Technology sector consolidation is the defining theme, with AI infrastructure, semiconductors, and data center REITs attracting the most strategic capital. The Federal Reserve's pivot to lower rates has materially reduced deal financing costs, unlocking a wave of buyout activity across private equity. Meanwhile, energy transition M&A is accelerating as oil majors diversify into battery metals, hydrogen, and renewables. Regulatory environments in the US and EU remain elevated for mega-deals exceeding $10B, with antitrust scrutiny adding 6–18 months to cross-border timelines.</p>
+                    <p style="font-size:.8rem;color:var(--text-secondary);line-height:1.8;">Global M&A has roared back in 2025, with first-half volumes surpassing $2.1T - the strongest start since 2021. Technology sector consolidation is the defining theme, with AI infrastructure, semiconductors, and data center REITs attracting the most strategic capital. The Federal Reserve's pivot to lower rates has materially reduced deal financing costs, unlocking a wave of buyout activity across private equity. Meanwhile, energy transition M&A is accelerating as oil majors diversify into battery metals, hydrogen, and renewables. Regulatory environments in the US and EU remain elevated for mega-deals exceeding $10B, with antitrust scrutiny adding 6-18 months to cross-border timelines.</p>
                 </div>
                 <div class="card">
                     <div class="section-label-gold" style="margin-bottom:1rem;">2025–2026 Deal Forecast</div>
@@ -579,7 +579,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
           <div>
             <div class="modal-badge badge-merger">⚡ MERGER</div>
             <div class="modal-title">Find Your Merger Partner</div>
-            <div class="modal-subtitle">Answer 3 quick questions — we'll match your ideal strategic partners</div>
+            <div class="modal-subtitle">Answer 3 quick questions - we'll match your ideal strategic partners</div>
           </div>
           <button class="modal-close" onclick="closeModal('mergerModal')">✕</button>
         </div>
@@ -600,7 +600,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
           </div>
           <div class="modal-step" id="mstep-2">
             <div class="form-group">
-              <div class="form-label">Step 2 — Company Valuation</div>
+              <div class="form-label">Step 2 - Company Valuation</div>
               <div class="form-question">What is your company's approximate enterprise value?</div>
               <div class="value-display" id="m-value-display">$500M</div>
               <input type="range" id="m-value-slider" min="0" max="100" value="25" oninput="updateValueDisplay('m-value-display',this.value,'m')">
@@ -609,7 +609,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
           </div>
           <div class="modal-step" id="mstep-3">
             <div class="form-group">
-              <div class="form-label">Step 3 — Merger Objective</div>
+              <div class="form-label">Step 3 - Merger Objective</div>
               <div class="form-question">What is the primary goal of this merger?</div>
               <div class="goal-grid" id="m-goal-grid"></div>
             </div>
@@ -632,7 +632,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
           <div>
             <div class="modal-badge badge-acquisition">🎯 ACQUISITION</div>
             <div class="modal-title">Find Acquisition Targets</div>
-            <div class="modal-subtitle">Tell us about yourself — we'll identify the best companies to acquire</div>
+            <div class="modal-subtitle">Tell us about yourself - we'll identify the best companies to acquire</div>
           </div>
           <button class="modal-close" onclick="closeModal('acquisitionModal')">✕</button>
         </div>
@@ -662,7 +662,7 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
           </div>
           <div class="modal-step" id="astep-3">
             <div class="form-group">
-              <div class="form-label">Step 3 — Acquisition Strategy</div>
+              <div class="form-label">Step 3 - Acquisition Strategy</div>
               <div class="form-question">What type of acquisition are you pursuing?</div>
               <div class="goal-grid" id="a-goal-grid"></div>
             </div>
