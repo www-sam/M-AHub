@@ -73,7 +73,7 @@ main{margin-top:120px;min-height:calc(100vh - 120px);}
 
 /* ─ Landing ─ */
 .landing-page{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:2rem;background:linear-gradient(135deg,var(--bg-primary) 0%,var(--bg-secondary) 100%);}
-.landing-hero{text-align:center;margin-bottom:0.5rem;animation:slideUp .6s ease;}
+.landing-hero{text-align:center;margin-bottom:0rem;animation:slideUp .6s ease;}
 @keyframes slideUp{from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);}}
 .landing-hero h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:4rem;font-weight:800;color:var(--text-primary);margin-bottom:1rem;letter-spacing:-.03em;line-height:1.2;}
 .landing-hero h1 span{background:linear-gradient(135deg,var(--accent-gold) 0%,var(--accent-purple) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
