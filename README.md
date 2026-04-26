@@ -66,7 +66,7 @@ nav{position:fixed;top:0;left:0;right:0;background:rgba(255,255,255,.95);backdro
 .ticker-item.dn .change{color:var(--accent-red);}
 
 /* ─ Main ─ */
-main{margin-top:70px;min-height:calc(100vh - 120px);}
+main{margin-top:120px;min-height:calc(100vh - 120px);}
 .section{display:none;animation:fadeSection .4s ease;}
 .section.active{display:block;}
 @keyframes fadeSection{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
