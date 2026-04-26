@@ -388,7 +388,6 @@ footer{background:var(--bg-secondary);border-top:1px solid var(--border-color);p
         <div class="landing-page">
             <div class="landing-hero">
                 <h1>Global <span>M&A Intelligence</span> Platform</h1>
-                <h1>Global <span>M&A Intelligence</span> Platform</h1>
                 <p>Real-time deal flow, sector analysis, and AI-powered market intelligence for institutional investors and M&A professionals.</p>
             </div>
                 <div class="data-source-tag"><span class="live-dot"></span> Data sourced from public filings, SEC EDGAR, Bloomberg & Refinitiv · Last updated <span id="lastUpdated"></span></div>
