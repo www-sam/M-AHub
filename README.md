@@ -1297,7 +1297,7 @@ function sendMessage(){
 }
 
 function initChat(){
-    addMessage('assistant','Welcome to the M&A Intelligence Engine. I can analyze deal flow, valuations, regulatory risks, sector trends, and more. Ask me anything about global M&A — or use the quick queries on the right to get started.<br><br><em style="font-size:.75rem;color:var(--text-tertiary);">Responses are generated from our built-in M&A knowledge base covering 6,840+ tracked deals.</em>');
+    addMessage('assistant','Welcome to the M&A Intelligence Engine. I can analyze deal flow, valuations, regulatory risks, sector trends, and more. Ask me anything about global M&A - or use the quick queries on the right to get started.<br><br><em style="font-size:.75rem;color:var(--text-tertiary);">Responses are generated from our built-in M&A knowledge base covering 6,840+ tracked deals.</em>');
     loadQuickBtns();
 }
 
